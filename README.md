@@ -26,9 +26,9 @@ BUTTON START -> W Key
 Note that the tech demo (pocket.gb) is non-interactive.
 
 ## BIOS and ROMS
-To avoid any potential legal issues:
-- For the BIOS, I use [Bootix](https://github.com/Hacktix/Bootix).
-- For the ROMS, I have included an open-source port of [Evoland](https://github.com/flozz/evoland.gb) and a tech demo [Is That a Demo in Your Pocket?](https://archive.org/details/demo_is_that_a_demo_in_your_pocket_2015)
+For the BIOS, I use [Bootix](https://github.com/Hacktix/Bootix).
+
+For the ROMS, I have included an open-source port of [Evoland](https://github.com/flozz/evoland.gb) and a tech demo [Is That a Demo in Your Pocket?](https://archive.org/details/demo_is_that_a_demo_in_your_pocket_2015)
 
 ## Limitations
 ### ROM Support

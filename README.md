@@ -57,6 +57,7 @@ The only performance metric considered is the amount of time it takes to execute
 When running the tech demo, a relatively demanding program, the emulator mostly stays below 16.7 milliseconds, but occasionally jumps up to 17-18 millisecond frames and has a worst-case frame of 20.5 milliseconds.
 
 ## References
+### Game Boy Internals
 In no particular order, listed below are various places where I have gotten information about the inner workings of the Game Boy.
 
 - [Pan Docs](https://gbdev.io/pandocs/)
@@ -68,3 +69,12 @@ In no particular order, listed below are various places where I have gotten info
 - [The Ultimate Game Boy Talk](https://www.youtube.com/watch?v=HyzD8pNlpwI)
 - [Nitty Gritty Gameboy Cycle Timing](http://blog.kevtris.org/blogfiles/Nitty%20Gritty%20Gameboy%20VRAM%20Timing.txt)
 - [The Gameboy Emulator Development Guide](https://hacktix.github.io/GBEDG/)
+
+### Tests
+The following tests were used to aid in the development of this emulator:
+- [Blargg](https://github.com/retrio/gb-test-roms)
+- [Mooneye](https://github.com/Gekkio/mooneye-test-suite)
+- [Mealybug Tearoom](https://github.com/mattcurrie/mealybug-tearoom-tests)
+- [dmg-acid2](https://github.com/mattcurrie/dmg-acid2)
+- [firstwhite](https://github.com/torch2424/wasmboy/issues/203)
+- [Scribbltests](https://github.com/Hacktix/scribbltests)

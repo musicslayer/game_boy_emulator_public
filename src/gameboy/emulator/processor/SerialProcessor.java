@@ -3,7 +3,7 @@ package gameboy.emulator.processor;
 import gameboy.emulator.clock.HybridClock;
 import gameboy.emulator.memory.AddressMap;
 
-// This class is a separate processor responsible for performing DMA transfers.
+// This class is a separate processor responsible for dealing with the serial data transfer registers
 public class SerialProcessor {
     public AddressMap addressMap;
 

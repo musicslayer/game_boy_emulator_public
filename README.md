@@ -3,7 +3,12 @@ A working Game Boy emulator.
 
 This emulator achieves reasonably accurate emulation and performance while still having an easy-to-read code base. See the [Limitations](#limitations) section below for more details.
 
-The goal of this project was to fulfill a childhood dream of successfully emulating a video game console. 
+The goal of this project was to fulfill a childhood dream of successfully emulating a video game console.
+
+## Installation Instructions
+Clone this repository and run Main.java to start the emulator.
+
+Inside Main.java, you can change which BIOS and ROM will be loaded (including ones that you provide on your own).
 
 ## Controls
 The following key mapping is hardcoded into the emulator:
@@ -26,6 +31,16 @@ To avoid any potential legal issues:
 - For the ROMS, I have included an open-source port of [Evoland](https://github.com/flozz/evoland.gb) and a tech demo [Is That a Demo in Your Pocket?](https://archive.org/details/demo_is_that_a_demo_in_your_pocket_2015)
 
 ## Limitations
+### ROM Support
+The emulator supports ROMS that use the following memory bank controllers:
+- No memory bank controller ("MBC0")
+- MBC1 (Including MultiCart)
+- MBC2
+- MBC3
+- MBC5
+
+The emulator supports saving RAM to disk to emulate battery-backed RAM, but does not emulate other features such as the real time clock in MBC3.
+
 ### Accuracy
 For some background context, a real Game Boy operates at 4194304 Hz, meaning that roughly every 23.84 nanoseconds (one T-Cycle), the CPU, APU, and PPU are clocked and perform an action/tick.
 For the CPU specifically, the actions it performs take integer multiples of 4 T-Cycles, so we can refer to 4 T-Cycles as an M-Cycle.
